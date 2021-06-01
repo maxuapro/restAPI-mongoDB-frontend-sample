@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#out{
+    width: 80%;
+    /* background-color: darksalmon; */
+    margin: 20px 0 20px 0;
+}
+
+.elem {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: coral;
+    padding: 10px;
+}
+
+#form{
+    width: 80%;
+    padding: 20px;
+    background-color: coral;
+}

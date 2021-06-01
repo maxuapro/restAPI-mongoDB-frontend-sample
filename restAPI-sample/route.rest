@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/60b3b25f133080486060336f
+
+###
+
+// Create one
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Sweet Heart",
+    "subscribedToChannel": "Channel Bubble"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/60b3b25f133080486060336f
+
+###
+
+PATCH  http://localhost:3000/subscribers/60b3b1e610613053703dbba7
+Content-Type: application/json
+
+{
+    "name": "Angry Demon",
+    "subscribedToChannel": "Another channel"
+}
